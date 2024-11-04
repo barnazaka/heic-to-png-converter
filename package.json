@@ -1,0 +1,19 @@
+{
+  "name": "heic-to-png-converter",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cere-ddc-sdk/ddc-client": "^2.13.0",
+    "express": "^4.21.1",
+    "localtunnel": "^2.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
