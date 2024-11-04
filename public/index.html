@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEIC to PNG Hello Converter</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; display: flex; align-items: center; justify-content: center; height: 100vh; }
+        .container { text-align: center; background-color: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 300px; }
+        h1 { font-size: 24px; margin-bottom: 20px; color: #333; }
+        .description { font-size: 16px; color: #555; margin-bottom: 30px; }
+        .button-group { display: flex; flex-direction: column; gap: 15px; }
+        input[type="file"] { display: none; }
+        .file-label, .convert-btn { padding: 12px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; color: #fff; width: 100%; }
+        .file-label { background-color: #007bff; }
+        .convert-btn { background-color: #28a745; }
+        .convert-btn:disabled { background-color: #ddd; cursor: not-allowed; }
+        .result-buttons { display: flex; justify-content: space-between; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HEIC to PNG Converter</h1>
+        <p class="description">Convert your HEIC images to PNG format easily!</p>
+        <div class="button-group">
+            <label for="file-upload" class="file-label">Browse File</label>
+            <input type="file" id="file-upload" accept=".heic">
+            <button id="convert-btn" class="convert-btn" disabled>Convert</button>
+        </div>
+        <div id="result-buttons" class="result-buttons" style="display: none;">
+            <a id="download-btn" class="download-btn" target="_blank">Download</a>
+            <button id="share-btn" class="share-btn">Share</button>
+        </div>
+    </div>
+    <script>
+        const fileInput = document.getElementById("file-upload");
+        const convertBtn = document.getElementById("convert-btn");
+        const resultButtons = document.getElementById("result-buttons");
+        const downloadBtn = document.getElementById("download-btn");
+
+        fileInput.addEventListener("change", () => {
+            convertBtn.disabled = !fileInput.files.length;
+        });
+
+        convertBtn.addEventListener("click", async () => {
+            const formData = new FormData();
+            formData.append("image", fileInput.files[0]);
+
+            convertBtn.textContent = "Converting...";
+            convertBtn.disabled = true;
+
+            try {
+                const response = await fetch("/upload", { method: "POST", body: formData });
+                const data = await response.json();
+
+                if (data.success) {
+                    downloadBtn.href = `/download/${data.id}`;
+                    resultButtons.style.display = "flex";
+                } else {
+                    alert("Failed to convert image: " + data.error);
+                }
+            } catch (error) {
+                console.error("Error:", error);
+                alert("An error occurred. Please try again.");
+            } finally {
+                convertBtn.textContent = "Convert";
+                convertBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>
