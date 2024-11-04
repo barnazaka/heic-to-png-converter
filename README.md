@@ -2,6 +2,8 @@
 
 This project is a bounty submission that combines Acurast's image conversion functionality with Cere Network's decentralized data storage capabilities. The main objective is to create a simple web application that converts HEIC files to PNG files, storing original and converted images in Cere's decentralized storage network and using Acurast for the image processing.
 
+The link: https://heic-to-png.processor-proxy.sook.ch/   //it might be having issues
+
 **Summary**
 
 This bounty project implements a fully decentralized HEIC-to-PNG image conversion system. The application allows users to:
