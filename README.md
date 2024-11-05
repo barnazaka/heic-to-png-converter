@@ -4,8 +4,15 @@ This project is a bounty submission that combines Acurast's image conversion fun
 
 **Video Link:** https://cdn.dragon.cere.network/1033/baear4ibrbpu4lotuhl4qnfoquak75luntcogf54kqg42lscnwelpep4i64/04.11.2024_21.21.50_REC.mp4
 
-The link: https://heic-to-png.processor-proxy.sook.ch/            (it might be having issues incase the Node js session ended.)
+**The link:** https://heic-to-png.processor-proxy.sook.ch/            (it might have issues in case the Node js session ended.)
 
+**Screenshots**
+1. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212410.png
+2. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212423.png
+3. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212435.png
+4. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212448.png
+5. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212459.png
+   
 **Summary**
 
 This bounty project implements a fully decentralized HEIC-to-PNG image conversion system. The application allows users to:
@@ -69,8 +76,6 @@ This starts the local server and opens a tunnel for accessing the Acurast cloud 
 - localtunnel - For local testing with Acurast’s cloud environment.
 - dotenv - For secure management of environment variables.
   
-**Screenshots**
-- Include screenshots here for the web interface, conversion button, and final download link.
 
 **Submission Requirements**
 - Complete source code via GitHub
