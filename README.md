@@ -8,10 +8,10 @@ This project is a bounty submission that combines Acurast's image conversion fun
 
 **Screenshots**
 1. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots%20-%20Copy/Screenshot%202024-11-04%20212410.png
-2. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212423.png
-3. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212435.png
-4. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212448.png
-5. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212459.png
+2. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots%20-%20Copy/Screenshot%202024-11-04%20212423.png
+3. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots%20-%20Copy/Screenshot%202024-11-04%20212435.png
+4. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots%20-%20Copy/Screenshot%202024-11-04%20212448.png
+5. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots%20-%20Copy/Screenshot%202024-11-04%20212459.png
    
 **Summary**
 
