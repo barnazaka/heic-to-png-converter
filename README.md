@@ -7,7 +7,7 @@ This project is a bounty submission that combines Acurast's image conversion fun
 **The link:** https://heic-to-png.processor-proxy.sook.ch/            (it might have issues in case the Node js session ended.)
 
 **Screenshots**
-1. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212410.png
+1. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots%20-%20Copy/Screenshot%202024-11-04%20212410.png
 2. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212423.png
 3. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212435.png
 4. https://cdn.dragon.cere.network/1033/baear4ie66mswfhhtggb4iqbbb5bngh5oai4l6qfvb324fruo6477r2g4yu/Screenshots - Copy/Screenshot 2024-11-04 212448.png
